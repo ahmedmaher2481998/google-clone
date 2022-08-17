@@ -1,6 +1,15 @@
 import Head from "next/head";
-import Image from "next/image";
+import Header from "../components/Header";
 
 export default function Home() {
-	return <div className='text-green-400'>Hello world</div>;
+	return (
+		<div>
+			<Head>
+				<title>Google</title>
+				<meta name='description' content='Google Search Engine ' />
+				<link rel='icon' href='/favicon.ico' />
+			</Head>
+			<Header />
+		</div>
+	);
 }
