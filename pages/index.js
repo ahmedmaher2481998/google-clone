@@ -11,7 +11,7 @@ export default function Home() {
 	const search = (e) => {
 		e.preventDefault();
 		if (!query.trim()) return;
-		router.push(`/search?q=${query}`);
+		router.push(`/search?q=${query}&category=`);
 	};
 	return (
 		<div>
@@ -35,7 +35,7 @@ export default function Home() {
 						className='border p-4 rounded-full flex hover:shadow-lg items-center focus:shadow-xl focus:border-2 justify-center mx-auto 
 					sm:w-2/4 mt-4 w-[90%] max-w-2xl'
 					>
-						<SearchIcon className='w-5 text-gray-500 ' />
+						<SearchIcon className='w-5 mr-2  text-gray-500 ' />
 						<input
 							onChange={(e) => setQuery(e.target.value)}
 							value={query}

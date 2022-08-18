@@ -1,6 +1,6 @@
 import React from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
-const User = () => {
+const User = ({ className }) => {
 	const { data: session } = useSession();
 	let a;
 	if (session) {
@@ -17,9 +17,9 @@ const User = () => {
 	}
 	return (
 		<div
-			className='bg-blue-600 px-6 py-2 hover:cursor-pointer
+			className={`bg-blue-600 px-6 py-2 hover:cursor-pointer
 		hover:bg-blue-500 hover:shadow-lg
-		 text-white rounded-md font-medium'
+		 text-white rounded-md font-medium whitespace-nowrap ${className}`}
 		>
 			<button onClick={signIn}>Sing in</button>
 		</div>
