@@ -14,7 +14,7 @@ export default function SignIn({ providers }) {
 						>
 							<img
 								className='object-cover w-[60vw] md:w-[30vw]'
-								src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/640px-Google_Images_2015_logo.svg.png'
+								src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png'
 								alt='google logo'
 							/>
 
