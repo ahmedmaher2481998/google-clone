@@ -3,9 +3,9 @@
 @tailwind utilities;
 @layer components {
 	.link_header {
-		@apply hover:underline cursor-pointer text-gray-700 underline-offset-2;
+		@apply hover:underline text-sm cursor-pointer text-gray-700 underline-offset-2;
 	}
 	.btn {
-		@apply w-40 my-3 mx-auto sm:mx-4 bg-[#f8f9fa] rounded-md hover:shadow-md text-sm p-3 hover:outline-1 outline-gray-600;
+		@apply w-40 my-3  mx-auto sm:mx-4 bg-[#f8f9fa] rounded-md hover:shadow-md text-sm p-3 hover:outline-1 outline-gray-600;
 	}
 }
