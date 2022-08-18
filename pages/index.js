@@ -26,8 +26,8 @@ export default function Home() {
 				<Image
 					src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png'
 					alt='Google logo'
-					width='400'
-					height='135'
+					width='300'
+					height='100'
 					objectFit='cover'
 				/>
 				<form>
