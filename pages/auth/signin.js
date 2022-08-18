@@ -19,10 +19,10 @@ export default function SignIn({ providers }) {
 							/>
 
 							<button
-								onClick={signIn}
 								className='text-white p-3 font-semibold bg-red-400 hover:bg-red-600 rounded-lg'
+								onClick={() => signIn(provider.id, { callbackUrl: "/" })}
 							>
-								Sign in with Google
+								Sign in with {provider.name}
 							</button>
 						</div>
 					);
@@ -34,8 +34,6 @@ export default function SignIn({ providers }) {
 export async function getServerSideProps() {
 	const providers = await getProviders();
 	return {
-		props: {
-			providers,
-		},
+		props: { providers },
 	};
 }
