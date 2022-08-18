@@ -35,10 +35,10 @@ const SearchHeader = () => {
 							className='w-7 mr-2 cursor-pointer'
 							onClick={() => setQuery("")}
 						/>
-						<MicrophoneIcon className='w-5  hidden sm:inline-flex cursor-pointer border-l-2  text-gray-500 mr-2 ' />
+						<MicrophoneIcon className='w-5  hidden sm:inline-flex cursor-pointer border-l-2  text-blue-500 mr-2 ' />
 						<SearchIcon
 							onClick={search}
-							className='w-5 text-gray-500 cursor-pointer hidden sm:inline-flex mr-2'
+							className='w-5 text-blue-500 cursor-pointer hidden sm:inline-flex mr-2'
 						/>
 					</div>
 				</form>

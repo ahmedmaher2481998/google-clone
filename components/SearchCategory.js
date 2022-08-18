@@ -11,7 +11,7 @@ const SearchCategory = ({ title, selected, Icon }) => {
 				onClick={() =>
 					router.push(
 						`search?q=${router.query.q}&category=${
-							title === "Images" ? "image" : "all"
+							title === "Images" ? "image" : ""
 						}`
 					)
 				}
