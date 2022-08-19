@@ -3,11 +3,15 @@ import { useRouter } from "next/router";
 import SearchHeader from "../components/SearchHeader";
 import { results } from "../mock/test";
 import SearchResults from "../components/SearchResults";
+import Head from "next/head";
 const Search = ({ data }) => {
 	const router = useRouter();
 
 	return (
 		<>
+			<Head>
+				<title>{router.query.q} - Google search</title>
+			</Head>
 			<SearchHeader />
 			<SearchResults results={data} />
 		</>
