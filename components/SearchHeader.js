@@ -12,8 +12,8 @@ const SearchHeader = () => {
 		router.push(`search?q=${router.query.q}`);
 	};
 	return (
-		<div className='bg-white p-2  w-screen'>
-			<div className='flex sticky top-0 justify-center items-center mt-4'>
+		<div className='bg-white sticky top-0 p-2  w-screen'>
+			<div className='flex  justify-center items-center mt-4'>
 				<Image
 					src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png'
 					alt='Google logo'
@@ -27,9 +27,9 @@ const SearchHeader = () => {
 					<div className='border p-2 shadow-lg rounded-full flex hover:shadow-lg items-center focus:shadow-xl h-14 focus:border-2 justify-center mx-auto w-[90%] max-w-2xl ml-2 '>
 						<input
 							onChange={(e) => {
-								const newQuery = e.target.value.trim();
+								const newQuery = e.target.value;
 								setQuery(newQuery);
-								router.query.q = newQuery;
+								router.query.q = newQuery.trim();
 							}}
 							value={query}
 							type='text'

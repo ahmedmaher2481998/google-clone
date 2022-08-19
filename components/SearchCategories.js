@@ -5,7 +5,7 @@ const SearchCategories = () => {
 	const router = useRouter();
 
 	return (
-		<div className=' border-gray-300 flex pl-0 md:justify-start md:pl-32 mt-6 space-x-8 border-b-2  mx-2 justify-center'>
+		<div className=' border-gray-300 flex pl-0  md:justify-start md:pl-32 mt-6 space-x-8 border-b-2  mx-2 justify-center'>
 			<SearchCategory
 				title={"All"}
 				Icon={SearchIcon}

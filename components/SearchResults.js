@@ -1,4 +1,5 @@
 import React from "react";
+import ResultItem from "./ResultItem";
 
 const SearchResults = ({ results }) => {
 	const item = results.items[0];
@@ -9,20 +10,9 @@ const SearchResults = ({ results }) => {
 					About {results.searchInformation.formattedTotalResults} result (
 					{results.searchInformation.formattedSearchTime} sec)
 				</p>
-				{/* {results.items.map((item) => {
-					return (
-						<>
-							<p>{JSON.stringify(item)}</p>
-						</>
-					);
-				})} */}
-				<div>
-					<a className='text-sm text-gray-700' href={item.formattedUrl}>
-						{item.displayLink}
-					</a>
-					<a href={item.formattedUrl}>{item.title}</a>
-					<p>{item.snippet}</p>
-				</div>
+				{results.items.map((item) => {
+					return <ResultItem key={item.link} item={item} />;
+				})}
 			</div>
 		</>
 	);
