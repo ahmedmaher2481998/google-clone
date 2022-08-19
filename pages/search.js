@@ -14,18 +14,17 @@ const Search = ({ data }) => {
 };
 
 export async function getServerSideProps(context) {
-	let url = `https://www.googleapis.com/customsearch/v1?key=${
-		process.env.API_KEY
-	}&cx=${process.env.CX}&q=${context.query.q.trim()}${
-		context.query.category ? "&searchType=image" : ""
-	}`;
-
-	`https://www.googleapis.com/customsearch/v1?key=${process.env.API_KEY}&cx=${
-		process.env.CONTEXT_KEY
-	}&q=${context.query.q}${context.query.searchType && "&searchType=image"}`;
 	const mockData = true;
 
-	const res = mockData ? results : await fetch(url).then((d) => d.json());
+	const res = mockData
+		? results
+		: await fetch(
+				`https://www.googleapis.com/customsearch/v1?key=${
+					process.env.API_KEY
+				}&cx=${process.env.CX}&q=${context.query.q.trim()}${
+					context.query.category ? "&searchType=image" : ""
+				}`
+		  ).then((d) => d.json());
 
 	return {
 		props: { data: res },
