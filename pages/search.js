@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
 import SearchHeader from "../components/SearchHeader";
-
+import { results } from "../mock/test";
 const Search = ({ data }) => {
 	console.log(data);
 	const router = useRouter();
@@ -14,21 +14,21 @@ const Search = ({ data }) => {
 };
 
 export async function getServerSideProps(context) {
-	let q = context.query.q;
-	// q = encodeURI(q);
-	let url =
-		"https://www.googleapis.com/customsearch/v1?key={API_KEY}&cx={CX}:omuauf_lfve&q={QUERY}";
-	url = url
-		.replace("{API_KEY}", process.env.API_KEY)
-		.replace("{CX}", process.env.CX)
-		.replace("{QUERY}", q);
+	let url = `https://www.googleapis.com/customsearch/v1?key=${
+		process.env.API_KEY
+	}&cx=${process.env.CX}&q=${context.query.q.trim()}${
+		context.query.category ? "&searchType=image" : ""
+	}`;
 
-	console.log(url);
-	const res = await fetch(url);
-	const data = await res.json();
-	console.log(data);
+	`https://www.googleapis.com/customsearch/v1?key=${process.env.API_KEY}&cx=${
+		process.env.CONTEXT_KEY
+	}&q=${context.query.q}${context.query.searchType && "&searchType=image"}`;
+	const mockData = true;
+
+	const res = mockData ? results : await fetch(url).then((d) => d.json());
+
 	return {
-		props: { data },
+		props: { data: res },
 	};
 }
 

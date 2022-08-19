@@ -26,7 +26,11 @@ const SearchHeader = () => {
 				<form className='flex-grow' onSubmit={search}>
 					<div className='border p-2 shadow-lg rounded-full flex hover:shadow-lg items-center focus:shadow-xl h-14 focus:border-2 justify-center mx-auto w-[90%] max-w-2xl ml-2 '>
 						<input
-							onChange={(e) => setQuery(e.target.value)}
+							onChange={(e) => {
+								const newQuery = e.target.value.trim();
+								setQuery(newQuery);
+								router.query.q = newQuery;
+							}}
 							value={query}
 							type='text'
 							className='text-sm sm:text-md ml-4 focus:outline-none w-[90%]'
