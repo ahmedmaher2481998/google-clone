@@ -2,13 +2,14 @@ import React from "react";
 import { useRouter } from "next/router";
 import SearchHeader from "../components/SearchHeader";
 import { results } from "../mock/test";
+import SearchResults from "../components/SearchResults";
 const Search = ({ data }) => {
-	console.log(data);
 	const router = useRouter();
 
 	return (
 		<>
 			<SearchHeader />
+			<SearchResults results={data} />
 		</>
 	);
 };
