@@ -48,7 +48,19 @@ export default function Home() {
 						<button onClick={search} className='btn'>
 							Google search
 						</button>
-						<button className='btn'>I&apos;m feeling lucky </button>
+						<button
+							onClick={async (e) => {
+								e.preventDefault();
+								await fetch("https://random-word-api.herokuapp.com/word")
+									.then((d) => d.json())
+									.then((randomWord) => {
+										router.push(`/search?q=${randomWord}&category=`);
+									});
+							}}
+							className='btn'
+						>
+							I&apos;m feeling lucky{" "}
+						</button>
 					</div>
 				</form>
 			</div>
