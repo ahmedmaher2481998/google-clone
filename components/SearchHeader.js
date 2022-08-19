@@ -13,8 +13,8 @@ const SearchHeader = () => {
 		router.push(`search?q=${router.query.q}`);
 	};
 	return (
-		<div className='bg-white sticky top-0 p-2  w-screen'>
-			<div className='flex  justify-center items-center mt-4'>
+		<div className='bg-white sticky top-0  '>
+			<div className='flex  justify-center p-2 items-center mt-4'>
 				<Image
 					src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png'
 					alt='Google logo'
