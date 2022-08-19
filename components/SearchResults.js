@@ -1,4 +1,5 @@
 import React from "react";
+import Pagination from "./Pagination";
 import ResultItem from "./ResultItem";
 
 const SearchResults = ({ results }) => {
@@ -13,6 +14,7 @@ const SearchResults = ({ results }) => {
 				{results.items.map((item) => {
 					return <ResultItem key={item.link} item={item} />;
 				})}
+				<Pagination />
 			</div>
 		</>
 	);

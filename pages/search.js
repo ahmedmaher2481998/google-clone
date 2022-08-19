@@ -4,6 +4,7 @@ import SearchHeader from "../components/SearchHeader";
 import { results } from "../mock/test";
 import SearchResults from "../components/SearchResults";
 import Head from "next/head";
+
 const Search = ({ data }) => {
 	const router = useRouter();
 
@@ -19,8 +20,8 @@ const Search = ({ data }) => {
 };
 
 export async function getServerSideProps(context) {
-	const mockData = true;
-
+	const mockData = false;
+	const startIndex = +context.query.start || 1;
 	const res = mockData
 		? results
 		: await fetch(
@@ -28,7 +29,7 @@ export async function getServerSideProps(context) {
 					process.env.API_KEY
 				}&cx=${process.env.CX}&q=${context.query.q.trim()}${
 					context.query.category ? "&searchType=image" : ""
-				}`
+				}&start=${startIndex}`
 		  ).then((d) => d.json());
 
 	return {
