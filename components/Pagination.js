@@ -3,11 +3,11 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/solid";
 
 const Pagination = () => {
 	const router = useRouter();
-	const page = (startIndex - 1) / 10 || 1;
+
 	const startIndex = +router.query.start || 1;
 	const goToPage = (startIndex) => {
 		router.push(
-			`/search?q=${router.query.q}&&searchType=${router.query.category}&&start=${startIndex}`
+			`/search?q=${router.query.q}&&category=${router.query.category}&&start=${startIndex}`
 		);
 	};
 	return (

@@ -8,28 +8,30 @@ export const results = {
 	queries: {
 		request: [
 			{
-				title: "Google Custom Search - javascript",
-				totalResults: "6130000000",
-				searchTerms: "javascript",
+				title: "Google Custom Search - how to center a div",
+				totalResults: "2640000000",
+				searchTerms: "how to center a div",
 				count: 10,
 				startIndex: 1,
 				inputEncoding: "utf8",
 				outputEncoding: "utf8",
 				safe: "off",
 				cx: "93304d67a256943e6",
+				searchType: "image",
 			},
 		],
 		nextPage: [
 			{
-				title: "Google Custom Search - javascript",
-				totalResults: "6130000000",
-				searchTerms: "javascript",
+				title: "Google Custom Search - how to center a div",
+				totalResults: "2640000000",
+				searchTerms: "how to center a div",
 				count: 10,
 				startIndex: 11,
 				inputEncoding: "utf8",
 				outputEncoding: "utf8",
 				safe: "off",
 				cx: "93304d67a256943e6",
+				searchType: "image",
 			},
 		],
 	},
@@ -37,529 +39,237 @@ export const results = {
 		title: "Google-clone",
 	},
 	searchInformation: {
-		searchTime: 0.492415,
-		formattedSearchTime: "0.49",
-		totalResults: "6130000000",
-		formattedTotalResults: "6,130,000,000",
+		searchTime: 0.599446,
+		formattedSearchTime: "0.60",
+		totalResults: "2640000000",
+		formattedTotalResults: "2,640,000,000",
 	},
 	items: [
 		{
 			kind: "customsearch#result",
-			title: "JavaScript.com",
-			htmlTitle: "<b>JavaScript</b>.com",
-			link: "https://www.javascript.com/",
-			displayLink: "www.javascript.com",
-			snippet:
-				"JavaScript.com is a resource for the JavaScript community. You will find resources and examples for JavaScript beginners as well as support for JavaScript ...",
-			htmlSnippet:
-				"<b>JavaScript</b>.com is a resource for the <b>JavaScript</b> community. You will find resources and examples for <b>JavaScript</b> beginners as well as support for <b>JavaScript</b>&nbsp;...",
-			cacheId: "jXQqC9zn7lcJ",
-			formattedUrl: "https://www.javascript.com/",
-			htmlFormattedUrl: "https://www.<b>javascript</b>.com/",
-			pagemap: {
-				cse_thumbnail: [
-					{
-						src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVB8ffCrgxj3mHYrCLqHLGGgsxOn5WlfiR08D2NK_El5LyXyhrRexlNSE",
-						width: "311",
-						height: "162",
-					},
-				],
-				metatags: [
-					{
-						"msapplication-tilecolor": "#e71585",
-						"og:image":
-							"https://www.pluralsight.com/content/pluralsight/jscom/jcr:content/image-res.transform/share-image/image.img.8777dec1-c820-4a0c-bdfc-52b2e12e4104.png",
-						"msapplication-config":
-							"/etc.clientlibs/pluralsight/clientlibs/clientlib-main/resources/images/favicons/browserconfig.xml",
-						"twitter:card": "summary_large_image",
-						"theme-color": "#ffffff",
-						"facebook-domain-verfication": "pdyvbn6upvb694o9lvqr0313g2rvcg",
-						"twitter:title": "JavaScript.com",
-						"og:title": "JavaScript.com",
-						"msapplication-tileimage":
-							"/etc.clientlibs/pluralsight/clientlibs/clientlib-main/resources/images/favicons/mstile-144x144.png",
-						"og:description":
-							"JavaScript.com is a resource for the JavaScript community. You will find resources and examples for JavaScript beginners as well as support for JavaScript experts. Learn JavaScript or free with our easy to use input output machine.",
-						"twitter:image":
-							"https://www.pluralsight.com/content/pluralsight/jscom/jcr:content/image-res.transform/share-image/image.img.8777dec1-c820-4a0c-bdfc-52b2e12e4104.png",
-						"cludo:category": "page",
-						"twitter:site": "@pluralsight",
-						viewport:
-							"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
-						"twitter:description":
-							"JavaScript.com is a resource for the JavaScript community. You will find resources and examples for JavaScript beginners as well as support for JavaScript experts. Learn JavaScript or free with our easy to use input output machine.",
-						"content-type": "Page",
-						categories: "page",
-					},
-				],
-				cse_image: [
-					{
-						src: "https://www.pluralsight.com/content/pluralsight/jscom/jcr:content/image-res.transform/share-image/image.img.8777dec1-c820-4a0c-bdfc-52b2e12e4104.png",
-					},
-				],
-			},
-		},
-		{
-			kind: "customsearch#result",
-			title: "JavaScript Tutorial",
-			htmlTitle: "<b>JavaScript</b> Tutorial",
-			link: "https://www.w3schools.com/js/",
-			displayLink: "www.w3schools.com",
-			snippet:
-				"JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. JavaScript is easy to learn. This tutorial will ...",
-			htmlSnippet:
-				"<b>JavaScript</b> is the world&#39;s most popular programming language. <b>JavaScript</b> is the programming language of the Web. <b>JavaScript</b> is easy to learn. This tutorial will&nbsp;...",
-			cacheId: "46zDTq1HRU8J",
-			formattedUrl: "https://www.w3schools.com/js/",
-			htmlFormattedUrl: "https://www.w3schools.com/js/",
-			pagemap: {
-				metatags: [
-					{
-						"og:image":
-							"https://www.w3schools.com/images/w3schools_logo_436_2.png",
-						"og:image:width": "436",
-						viewport: "width=device-width, initial-scale=1",
-						"og:image:height": "228",
-						"og:image:type": "image/png",
-						"og:description":
-							"W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
-					},
-				],
-				cse_image: [
-					{
-						src: "https://www.w3schools.com/images/w3schools_logo_436_2.png",
-					},
-				],
-			},
-		},
-		{
-			kind: "customsearch#result",
-			title: "JavaScript | MDN",
-			htmlTitle: "<b>JavaScript</b> | MDN",
-			link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-			displayLink: "developer.mozilla.org",
-			snippet:
-				"7 days ago ... JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.",
-			htmlSnippet:
-				"7 days ago <b>...</b> <b>JavaScript</b> (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.",
-			cacheId: "4iYXz9SI5YsJ",
-			formattedUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-			htmlFormattedUrl:
-				"https://developer.mozilla.org/en-US/docs/Web/<b>JavaScript</b>",
-			pagemap: {
-				cse_thumbnail: [
-					{
-						src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzATynhxJ3xCKxahvxBUUWVIDDr0xDYe9RZ0zbnEA0xRNPGYwaPVEQMK0",
-						width: "300",
-						height: "168",
-					},
-				],
-				BreadcrumbList: [{}],
-				metatags: [
-					{
-						"og:image":
-							"https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png",
-						"theme-color": "#ffffff",
-						"twitter:card": "summary_large_image",
-						viewport: "width=device-width,initial-scale=1",
-						"og:title": "JavaScript | MDN",
-						"og:locale": "en-US",
-						position: "1",
-						"og:url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-						"og:description":
-							"JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript.",
-					},
-				],
-				cse_image: [
-					{
-						src: "https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png",
-					},
-				],
-			},
-		},
-		{
-			kind: "customsearch#result",
-			title: "JavaScript - Wikipedia",
-			htmlTitle: "<b>JavaScript</b> - Wikipedia",
-			link: "https://en.wikipedia.org/wiki/JavaScript",
-			displayLink: "en.wikipedia.org",
-			snippet:
-				"JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. ... It has dynamic typing, prototype-based object- ...",
-			htmlSnippet:
-				"<b>JavaScript</b> is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. ... It has dynamic typing, prototype-based object-&nbsp;...",
-			cacheId: "W5aoOx-wZUQJ",
-			formattedUrl: "https://en.wikipedia.org/wiki/JavaScript",
-			htmlFormattedUrl: "https://en.wikipedia.org/wiki/<b>JavaScript</b>",
-			pagemap: {
-				cse_thumbnail: [
-					{
-						src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTaVE4InQYHB5Xmk7KUycdh8v9jUqaQYd77fMmRY5omDLOqYLtzAkHzvps",
-						width: "239",
-						height: "211",
-					},
-				],
-				metatags: [
-					{
-						referrer: "origin",
-						"og:image":
-							"https://upload.wikimedia.org/wikipedia/commons/9/91/JavaScript_screenshot.png",
-						"theme-color": "#eaecf0",
-						"og:image:width": "1200",
-						"og:type": "website",
-						viewport:
-							"width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
-						"og:title": "JavaScript - Wikipedia",
-						"og:image:height": "1062",
-						"format-detection": "telephone=no",
-					},
-				],
-				cse_image: [
-					{
-						src: "https://upload.wikimedia.org/wikipedia/commons/9/91/JavaScript_screenshot.png",
-					},
-				],
-			},
-		},
-		{
-			kind: "customsearch#result",
-			title: "JavaScript Courses & Tutorials | Codecademy",
-			htmlTitle: "<b>JavaScript</b> Courses &amp; Tutorials | Codecademy",
-			link: "https://www.codecademy.com/catalog/language/javascript",
-			displayLink: "www.codecademy.com",
-			snippet:
-				"JavaScript is a fun and flexible programming language. It's one of the core technologies of web development and can be used on both the front-end and the ...",
-			htmlSnippet:
-				"<b>JavaScript</b> is a fun and flexible programming language. It&#39;s one of the core technologies of web development and can be used on both the front-end and the&nbsp;...",
-			cacheId: "4kTy7UuckscJ",
-			formattedUrl: "https://www.codecademy.com/catalog/language/javascript",
-			htmlFormattedUrl:
-				"https://www.codecademy.com/catalog/language/<b>javascript</b>",
-			pagemap: {
-				cse_thumbnail: [
-					{
-						src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSeSIzcQrS7QZR5tfWx0hp68RbiAbhL4M6L3ex3chvuPb_xApS7BXx19h5w",
-						width: "310",
-						height: "163",
-					},
-				],
-				metatags: [
-					{
-						"apple-itunes-app": "app-id=1376029326",
-						"og:image":
-							"https://images.codecademy.com/social/logo-codecademy-social.png",
-						"fb:profile_id": "codecademy",
-						"og:type": "website",
-						"twitter:card": "summary",
-						"twitter:title": "JavaScript Courses & Tutorials | Codecademy",
-						"og:site_name": "Codecademy",
-						"og:title": "JavaScript Courses & Tutorials | Codecademy",
-						"og:description":
-							"JavaScript is a fun and flexible programming language. It's one of the core technologies of web development and can be used on both the front-end and the back-end.",
-						"twitter:image":
-							"https://images.codecademy.com/social/logo-codecademy-social.png",
-						"next-head-count": "38",
-						"fb:app_id": "307818116683104",
-						"twitter:site": "@codecademy",
-						viewport: "width=device-width",
-						"twitter:description":
-							"JavaScript is a fun and flexible programming language. It's one of the core technologies of web development and can be used on both the front-end and the back-end.",
-						"og:rich_attachment": "true",
-					},
-				],
-				cse_image: [
-					{
-						src: "https://images.codecademy.com/social/logo-codecademy-social.png",
-					},
-				],
-			},
-		},
-		{
-			kind: "customsearch#result",
-			title: "The Modern JavaScript Tutorial",
-			htmlTitle: "The Modern <b>JavaScript</b> Tutorial",
-			link: "https://javascript.info/",
-			displayLink: "javascript.info",
-			snippet:
-				"Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming ...",
-			htmlSnippet:
-				"Modern <b>JavaScript</b> Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming&nbsp;...",
-			cacheId: "6VC3C_qOLW4J",
-			formattedUrl: "https://javascript.info/",
-			htmlFormattedUrl: "https://<b>javascript</b>.info/",
-			pagemap: {
-				cse_thumbnail: [
-					{
-						src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTGmu8Wt95CyghQzHBz28pRV2kTGhmERxEmOlfJo98JTxfIBUPqikc5XA",
-						width: "150",
-						height: "79",
-					},
-				],
-				metatags: [
-					{
-						"msapplication-tilecolor": "#222A2C",
-						"og:image":
-							"https://javascript.info/img/site_preview_en_1200x630.png",
-						"og:image:width": "1200",
-						"twitter:card": "summary",
-						"twitter:title": "The Modern JavaScript Tutorial",
-						"og:title": "The Modern JavaScript Tutorial",
-						"og:image:height": "630",
-						"og:image:type": "image/png",
-						"msapplication-tileimage": "/img/favicon/tileicon.png",
-						"twitter:creator": "@iliakan",
-						"twitter:image":
-							"https://javascript.info/img/site_preview_en_512x512.png",
-						"twitter:site": "@iliakan",
-						viewport:
-							"width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1.0",
-						"apple-mobile-web-app-capable": "yes",
-						"fb:admins": "100001562528165",
-					},
-				],
-				cse_image: [
-					{
-						src: "https://javascript.info/img/site_preview_en_1200x630.png",
-					},
-				],
-			},
-		},
-		{
-			kind: "customsearch#result",
-			title: "Node.js",
-			htmlTitle: "Node.js",
-			link: "https://nodejs.org/",
-			displayLink: "nodejs.org",
-			snippet:
-				"Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
-			htmlSnippet:
-				"Node.js® is a <b>JavaScript</b> runtime built on Chrome&#39;s V8 <b>JavaScript</b> engine.",
-			cacheId: "P2E8k6j2VqoJ",
-			formattedUrl: "https://nodejs.org/",
-			htmlFormattedUrl: "https://nodejs.org/",
-			pagemap: {
-				cse_thumbnail: [
-					{
-						src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTXPFXA6hXmpy8g9bK5jybA0M6uHj63xbdzWQg2ST7tKoEIRVlfASgv1TdX",
-						width: "210",
-						height: "240",
-					},
-				],
-				metatags: [
-					{
-						"og:image":
-							"https://nodejs.org/static/images/logo-hexagon-card.png",
-						"theme-color": "#333",
-						"og:image:width": "224",
-						"twitter:card": "summary",
-						"twitter:title": "Node.js",
-						"og:site_name": "Node.js",
-						author: "Node.js",
-						"og:title": "Node.js",
-						"og:image:height": "256",
-						"og:image:type": "image/png",
-						"og:description":
-							"Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
-						"twitter:image":
-							"https://nodejs.org/static/images/logo-hexagon-card.png",
-						"twitter:image:alt": "The Node.js Hexagon Logo",
-						"twitter:site": "@nodejs",
-						viewport: "width=device-width, initial-scale=1",
-					},
-				],
-				cse_image: [
-					{
-						src: "https://nodejs.org/static/images/logo-hexagon-card.png",
-					},
-				],
-			},
-		},
-		{
-			kind: "customsearch#result",
-			title: "JavaScript Tutorial: Learn JavaScript For Free | Codecademy",
+			title:
+				"3 Ways to Center a Div with CSS. A Guide to Centering a Div both ...",
 			htmlTitle:
-				"<b>JavaScript</b> Tutorial: Learn <b>JavaScript</b> For Free | Codecademy",
-			link: "https://www.codecademy.com/learn/introduction-to-javascript",
-			displayLink: "www.codecademy.com",
+				"3 Ways to <b>Center</b> a <b>Div</b> with CSS. A Guide to <b>Centering</b> a <b>Div</b> both ...",
+			link: "https://miro.medium.com/max/1400/1*wqHMGELij1J7yMxMGHqDPg.png",
+			displayLink: "blog.devgenius.io",
 			snippet:
-				"JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one.",
+				"3 Ways to Center a Div with CSS. A Guide to Centering a Div both ...",
 			htmlSnippet:
-				"<b>JavaScript</b> is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one.",
-			cacheId: "I7qo4PXFTyYJ",
-			formattedUrl:
-				"https://www.codecademy.com/learn/introduction-to-javascript",
-			htmlFormattedUrl:
-				"https://www.codecademy.com/learn/introduction-to-<b>javascript</b>",
-			pagemap: {
-				cse_thumbnail: [
-					{
-						src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSeSIzcQrS7QZR5tfWx0hp68RbiAbhL4M6L3ex3chvuPb_xApS7BXx19h5w",
-						width: "310",
-						height: "163",
-					},
-				],
-				metatags: [
-					{
-						"apple-itunes-app": "app-id=1376029326",
-						"og:image":
-							"https://images.codecademy.com/social/logo-codecademy-social.png",
-						"theme-color": "#10162F",
-						"fb:profile_id": "codecademy",
-						"og:type": "article",
-						"twitter:card": "summary",
-						"twitter:title":
-							"JavaScript Tutorial: Learn JavaScript For Free | Codecademy",
-						"og:site_name": "Codecademy",
-						"og:title":
-							"JavaScript Tutorial: Learn JavaScript For Free | Codecademy",
-						"csrf-param": "authenticity_token",
-						"og:description":
-							"Learn JavaScript and Javascript arrays to build interactive websites and pages that adapt to every device. Add dynamic behavior, store information, and handle requests and responses.",
-						"twitter:image":
-							"https://images.codecademy.com/social/logo-codecademy-social.png",
-						"fb:app_id": "212500508799908",
-						"twitter:site": "@codecademy",
-						viewport: "width=device-width, initial-scale=1.0",
-						"twitter:description":
-							"Learn JavaScript and Javascript arrays to build interactive websites and pages that adapt to every device. Add dynamic behavior, store information, and handle requests and responses.",
-						"csrf-token":
-							"aWx1qfzEuYiAzElKZKAE9XmtMXvHWQjV6IDFxHr47wIeyHs/dt4n0STCU3K0oO+kmRI9fPoCR7nuQZ9rqMs1IA==",
-						"og:rich_attachment": "true",
-						"og:url":
-							"https://www.codecademy.com/learn/introduction-to-javascript",
-					},
-				],
-				cse_image: [
-					{
-						src: "https://images.codecademy.com/social/logo-codecademy-social.png",
-					},
-				],
+				"3 Ways to <b>Center</b> a <b>Div</b> with CSS. A Guide to <b>Centering</b> a <b>Div</b> both ...",
+			mime: "image/png",
+			fileFormat: "image/png",
+			image: {
+				contextLink:
+					"https://blog.devgenius.io/3-ways-to-center-a-div-with-css-3df9e66dbd42",
+				height: 1072,
+				width: 924,
+				byteSize: 95097,
+				thumbnailLink:
+					"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-96PM4l3KXL9cGhknd6p0qFtcRSEggVAGb_EPEDObnLeKbXmGuUQBiu8H&s",
+				thumbnailHeight: 150,
+				thumbnailWidth: 129,
 			},
 		},
 		{
 			kind: "customsearch#result",
-			title: "airbnb/javascript: JavaScript Style Guide - GitHub",
-			htmlTitle: "airbnb/javascript: JavaScript Style Guide - GitHub",
-			link: "https://github.com/airbnb/javascript",
-			displayLink: "github.com",
-			snippet:
-				"Airbnb JavaScript Style Guide() {. A mostly reasonable approach to JavaScript. Note: this guide assumes you are using Babel, and requires that you use ...",
+			title: "How To Horizontally Center a Div - WeeklyHow",
+			htmlTitle:
+				"<b>How</b> To Horizontally <b>Center</b> a <b>Div</b> - WeeklyHow",
+			link: "https://weeklyhow.com/wp-content/uploads/2019/02/Thu.png",
+			displayLink: "weeklyhow.com",
+			snippet: "How To Horizontally Center a Div - WeeklyHow",
 			htmlSnippet:
-				"Airbnb <b>JavaScript</b> Style Guide() {. A mostly reasonable approach to <b>JavaScript</b>. Note: this guide assumes you are using Babel, and requires that you use&nbsp;...",
-			cacheId: "yPuRwRAUpskJ",
-			formattedUrl: "https://github.com/airbnb/javascript",
-			htmlFormattedUrl: "https://github.com/airbnb/<b>javascript</b>",
-			pagemap: {
-				softwaresourcecode: [
-					{
-						license: "LICENSE.md",
-						author: "airbnb",
-						name: "javascript",
-						text: "Airbnb JavaScript Style Guide() { A mostly reasonable approach to JavaScript Note: this guide assumes you are using Babel, and requires that you use babel-preset-airbnb or the equivalent. It...",
-					},
-				],
-				metatags: [
-					{
-						"octolytics-url": "https://collector.github.com/github/collect",
-						"apple-itunes-app": "app-id=1477376905",
-						"og:image":
-							"https://opengraph.githubassets.com/eb9fecb27c7a07f8de3dac84f050d46991259a2ea58574d9e8876f809ebc0356/airbnb/javascript",
-						"twitter:card": "summary_large_image",
-						"og:image:width": "1200",
-						"theme-color": "#1e2327",
-						"og:site_name": "GitHub",
-						"hovercard-subject-tag": "repository:6498492",
-						"turbo-body-classes": "logged-out env-production page-responsive",
-						"html-safe-nonce":
-							"6f602ec92a1b18c2fe6269f18cc0ea94095b1736cab07ebd8f5650da693fb88b",
-						"expected-hostname": "github.com",
-						"og:description":
-							"JavaScript Style Guide. Contribute to airbnb/javascript development by creating an account on GitHub.",
-						"browser-errors-url":
-							"https://api.github.com/_private/browser/errors",
-						"octolytics-dimension-user_login": "airbnb",
-						hostname: "github.com",
-						"twitter:site": "@github",
-						"browser-stats-url":
-							"https://api.github.com/_private/browser/stats",
-						"visitor-payload":
-							"eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJBNzY0OjE1Q0Y6MjM0MTU3OjNFRTgwOTo2MkZGMkM2RSIsInZpc2l0b3JfaWQiOiI0MTQ2NDQxMTUyNDAyMjM4NTc0IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=",
-						"github-keyboard-shortcuts": "repository",
-						"octolytics-dimension-repository_id": "6498492",
-						"octolytics-dimension-repository_network_root_nwo":
-							"airbnb/javascript",
-						"enabled-features": "IMAGE_METRIC_TRACKING,GEOJSON_AZURE_MAPS",
-						"twitter:title":
-							"GitHub - airbnb/javascript: JavaScript Style Guide",
-						"og:image:alt":
-							"JavaScript Style Guide. Contribute to airbnb/javascript development by creating an account on GitHub.",
-						"og:type": "object",
-						"optimizely-datafile":
-							'{"groups": [], "environmentKey": "production", "rollouts": [], "typedAudiences": [], "projectId": "16737760170", "variables": [], "featureFlags": [], "experiments": [{"status": "Running", "audienceIds": [], "variations": [{"variables": [], "id": "20667381018", "key": "control"}, {"variables": [], "id": "20680930759", "key": "treatment"}], "id": "20652570897", "key": "project_genesis", "layerId": "20672300363", "trafficAllocation": [{"entityId": "20667381018", "endOfRange": 5000}, {"entityId": "20680930759", "endOfRange": 10000}], "forcedVariations": {"83356e17066d336d1803024138ecb683": "treatment", "18e31c8a9b2271332466133162a4aa0d": "treatment", "10f8ab3fbc5ebe989a36a05f79d48f32": "treatment", "1686089f6d540cd2deeaec60ee43ecf7": "treatment"}}, {"status": "Running", "audienceIds": [], "variations": [{"variables": [], "id": "21427950901", "key": "control"}, {"variables": [], "id": "21429710665", "key": "beginner"}, {"variables": [], "id": "21437291543", "key": "upstart"}], "id": "21445030708", "key": "_259_zer',
-						"og:title": "GitHub - airbnb/javascript: JavaScript Style Guide",
-						"visitor-hmac":
-							"7c3b2837b7152beab1d64237a181face2c37ad2536fdc8167c6e1457e799955d",
-						"og:image:height": "600",
-						"turbo-cache-control": "no-preview",
-						"request-id": "A764:15CF:234157:3EE809:62FF2C6E",
-						"analytics-location": "/<user-name>/<repo-name>",
-						"color-scheme": "light dark",
-						"octolytics-dimension-repository_is_fork": "false",
-						"go-import":
-							"github.com/airbnb/javascript git https://github.com/airbnb/javascript.git",
-						"browser-optimizely-client-errors-url":
-							"https://api.github.com/_private/browser/optimizely_client/errors",
-						"twitter:image:src":
-							"https://opengraph.githubassets.com/eb9fecb27c7a07f8de3dac84f050d46991259a2ea58574d9e8876f809ebc0356/airbnb/javascript",
-						"octolytics-dimension-user_id": "698437",
-						"octolytics-dimension-repository_public": "true",
-						"fb:app_id": "1401488693436528",
-						"octolytics-dimension-repository_network_root_id": "6498492",
-						"octolytics-dimension-repository_nwo": "airbnb/javascript",
-						viewport: "width=device-width",
-						"twitter:description":
-							"JavaScript Style Guide. Contribute to airbnb/javascript development by creating an account on GitHub.",
-						"og:url": "https://github.com/airbnb/javascript",
-					},
-				],
-				cse_image: [
-					{
-						src: "https://opengraph.githubassets.com/eb9fecb27c7a07f8de3dac84f050d46991259a2ea58574d9e8876f809ebc0356/airbnb/javascript",
-					},
-				],
+				"<b>How</b> To Horizontally <b>Center</b> a <b>Div</b> - WeeklyHow",
+			mime: "image/png",
+			fileFormat: "image/png",
+			image: {
+				contextLink: "https://weeklyhow.com/how-to-horizontally-center-a-div/",
+				height: 580,
+				width: 928,
+				byteSize: 104649,
+				thumbnailLink:
+					"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQFBd6fupgKZU64O9t3Kok9Cxv4-I6xWudNMCguo-Rz7HYE-27u8WS1g&s",
+				thumbnailHeight: 92,
+				thumbnailWidth: 147,
 			},
 		},
 		{
 			kind: "customsearch#result",
-			title: "JavaScript · Bootstrap",
-			htmlTitle: "<b>JavaScript</b> · Bootstrap",
-			link: "https://getbootstrap.com/docs/3.4/javascript/",
-			displayLink: "getbootstrap.com",
+			title:
+				"Best 3 Ways to Center a Div with CSS | by Rajdeep singh | Nerd For ...",
+			htmlTitle:
+				"Best 3 Ways to <b>Center</b> a <b>Div</b> with CSS | by Rajdeep singh | Nerd For ...",
+			link: "https://miro.medium.com/max/1400/1*jZzHME9hFK2eygUt-d_xJQ.png",
+			displayLink: "medium.com",
 			snippet:
-				"Data attributes. You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class ...",
+				"Best 3 Ways to Center a Div with CSS | by Rajdeep singh | Nerd For ...",
 			htmlSnippet:
-				"Data attributes. You can use all Bootstrap plugins purely through the markup API without writing a single line of <b>JavaScript</b>. This is Bootstrap&#39;s first-class&nbsp;...",
-			cacheId: "05qgqFNnoe4J",
-			formattedUrl: "https://getbootstrap.com/docs/3.4/javascript/",
-			htmlFormattedUrl: "https://getbootstrap.com/docs/3.4/<b>javascript</b>/",
-			pagemap: {
-				cse_thumbnail: [
-					{
-						src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRkDn9vwL4FOMHxsYb6s8CnTCIFOcaSVD7XJ-VlOM1geTMyG_RDnWw8YErI",
-						width: "301",
-						height: "167",
-					},
-				],
-				metatags: [
-					{
-						viewport: "width=device-width, initial-scale=1",
-						author: "Mark Otto, Jacob Thornton, and Bootstrap contributors",
-					},
-				],
-				cse_image: [
-					{
-						src: "x-raw-image:///95770d163f1f140bc8b25ae574378b00f1e50ee83b72a8047287c42201d28366",
-					},
-				],
+				"Best 3 Ways to <b>Center</b> a <b>Div</b> with CSS | by Rajdeep singh | Nerd For ...",
+			mime: "image/png",
+			fileFormat: "image/png",
+			image: {
+				contextLink:
+					"https://medium.com/nerd-for-tech/best-3-ways-to-center-a-div-with-css-1668b66c9891",
+				height: 720,
+				width: 1280,
+				byteSize: 10970,
+				thumbnailLink:
+					"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3wPXMn4H0HZISCYCPqPCNFzz3PQAVCpp0bfeJ7HbAmfRURUTgobbTFg&s",
+				thumbnailHeight: 84,
+				thumbnailWidth: 150,
+			},
+		},
+		{
+			kind: "customsearch#result",
+			title: "Center an element - CSS: Cascading Style Sheets | MDN",
+			htmlTitle: "<b>Center</b> an element - CSS: Cascading Style Sheets | MDN",
+			link: "https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Center_an_element/cookbook-center.png",
+			displayLink: "developer.mozilla.org",
+			snippet: "Center an element - CSS: Cascading Style Sheets | MDN",
+			htmlSnippet:
+				"<b>Center</b> an element - CSS: Cascading Style Sheets | MDN",
+			mime: "image/png",
+			fileFormat: "image/png",
+			image: {
+				contextLink:
+					"https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Center_an_element",
+				height: 421,
+				width: 1219,
+				byteSize: 4804,
+				thumbnailLink:
+					"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnOGLUudpeQGZ_svmWVXQwEjV7EPV5u6Iz07iJaFlRefXESJOlBwgzzA&s",
+				thumbnailHeight: 52,
+				thumbnailWidth: 150,
+			},
+		},
+		{
+			kind: "customsearch#result",
+			title: "4 Quickest Ways to Center Div with CSS - YouTube",
+			htmlTitle: "4 Quickest Ways to <b>Center Div</b> with CSS - YouTube",
+			link: "https://i.ytimg.com/vi/mVYgtzDLZfY/maxresdefault.jpg",
+			displayLink: "www.youtube.com",
+			snippet: "4 Quickest Ways to Center Div with CSS - YouTube",
+			htmlSnippet: "4 Quickest Ways to <b>Center Div</b> with CSS - YouTube",
+			mime: "image/jpeg",
+			fileFormat: "image/jpeg",
+			image: {
+				contextLink: "https://www.youtube.com/watch?v=mVYgtzDLZfY",
+				height: 720,
+				width: 1280,
+				byteSize: 67148,
+				thumbnailLink:
+					"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwHLF3dJTvi9VMu9Js9mp4m7enW7_rZkRKM6mavaZi2xfhSG_hf_ZS5jk&s",
+				thumbnailHeight: 84,
+				thumbnailWidth: 150,
+			},
+		},
+		{
+			kind: "customsearch#result",
+			title: "4 Ways to Center Div with CSS - Red Stapler",
+			htmlTitle: "4 Ways to <b>Center Div</b> with CSS - Red Stapler",
+			link: "https://redstapler.co/wp-content/uploads/2019/02/4-ways-to-center-div-thumbnail.jpg",
+			displayLink: "redstapler.co",
+			snippet: "4 Ways to Center Div with CSS - Red Stapler",
+			htmlSnippet: "4 Ways to <b>Center Div</b> with CSS - Red Stapler",
+			mime: "image/jpeg",
+			fileFormat: "image/jpeg",
+			image: {
+				contextLink: "https://redstapler.co/4-ways-to-center-div-css/",
+				height: 1080,
+				width: 1920,
+				byteSize: 72814,
+				thumbnailLink:
+					"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShWicuJfkdnv2Rz6ZOMLSiqTTMEioLYyzfZRoScGk9EUpFJFtCblmgPyc&s",
+				thumbnailHeight: 84,
+				thumbnailWidth: 150,
+			},
+		},
+		{
+			kind: "customsearch#result",
+			title: "3 Ways to CENTER a div in CSS - DEV Community",
+			htmlTitle: "3 Ways to <b>CENTER</b> a <b>div</b> in CSS - DEV Community",
+			link: "https://res.cloudinary.com/practicaldev/image/fetch/s--g3zqxkO3--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oiets1j1ibobjol3034t.jpeg",
+			displayLink: "dev.to",
+			snippet: "3 Ways to CENTER a div in CSS - DEV Community",
+			htmlSnippet:
+				"3 Ways to <b>CENTER</b> a <b>div</b> in CSS - DEV Community",
+			mime: "image/jpeg",
+			fileFormat: "image/jpeg",
+			image: {
+				contextLink: "https://dev.to/codeoz/3-ways-to-center-a-div-in-css-gl1",
+				height: 420,
+				width: 1000,
+				byteSize: 17600,
+				thumbnailLink:
+					"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ--Cj5v0TlL8Pc4Mx_ZLrDfEyIIsPfDqI2BB0iWPXBXvvBGJpMhb94g&s",
+				thumbnailHeight: 63,
+				thumbnailWidth: 149,
+			},
+		},
+		{
+			kind: "customsearch#result",
+			title: "11 Ways to Center Div or Text in Div in CSS",
+			htmlTitle: "11 Ways to <b>Center Div</b> or Text in <b>Div</b> in CSS",
+			link: "https://blog.hubspot.com/hs-fs/hubfs/A%20div%20centered%20within%20a%20div%20using%20Flexbox%20in%20W3Schoolss%20Tryit%20editor.png?width=1500&name=A%20div%20centered%20within%20a%20div%20using%20Flexbox%20in%20W3Schoolss%20Tryit%20editor.png",
+			displayLink: "blog.hubspot.com",
+			snippet: "11 Ways to Center Div or Text in Div in CSS",
+			htmlSnippet: "11 Ways to <b>Center Div</b> or Text in <b>Div</b> in CSS",
+			mime: "image/png",
+			fileFormat: "image/png",
+			image: {
+				contextLink: "https://blog.hubspot.com/website/center-div-css",
+				height: 553,
+				width: 1236,
+				byteSize: 17579,
+				thumbnailLink:
+					"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDraVxMm6eyuSRK6IzaslN_JW8qoth4NKLhBBC3ETYUsMRCSF601kXQd4&s",
+				thumbnailHeight: 67,
+				thumbnailWidth: 150,
+			},
+		},
+		{
+			kind: "customsearch#result",
+			title: "How to center a div inside a div with html and css - YouTube",
+			htmlTitle:
+				"<b>How</b> to <b>center</b> a <b>div</b> inside a <b>div</b> with html and css - YouTube",
+			link: "https://i.ytimg.com/vi/0xajUei7rkQ/maxresdefault.jpg",
+			displayLink: "www.youtube.com",
+			snippet: "How to center a div inside a div with html and css - YouTube",
+			htmlSnippet:
+				"<b>How</b> to <b>center</b> a <b>div</b> inside a <b>div</b> with html and css - YouTube",
+			mime: "image/jpeg",
+			fileFormat: "image/jpeg",
+			image: {
+				contextLink: "https://www.youtube.com/watch?v=0xajUei7rkQ",
+				height: 720,
+				width: 1280,
+				byteSize: 45395,
+				thumbnailLink:
+					"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpyIy1R-61Pma2L9Todtw6TrldvNTWzLo3CE8AVWEfGT-z6YbHKxByWA&s",
+				thumbnailHeight: 84,
+				thumbnailWidth: 150,
+			},
+		},
+		{
+			kind: "customsearch#result",
+			title: "11 Ways to Center Div or Text in Div in CSS",
+			htmlTitle: "11 Ways to <b>Center Div</b> or Text in <b>Div</b> in CSS",
+			link: "https://blog.hubspot.com/hs-fs/hubfs/Text%20in%20a%20div%20is%20centered%20vertically%20using%20the%20padding%20property%20in%20CSS.png?width=1500&name=Text%20in%20a%20div%20is%20centered%20vertically%20using%20the%20padding%20property%20in%20CSS.png",
+			displayLink: "blog.hubspot.com",
+			snippet: "11 Ways to Center Div or Text in Div in CSS",
+			htmlSnippet: "11 Ways to <b>Center Div</b> or Text in <b>Div</b> in CSS",
+			mime: "image/png",
+			fileFormat: "image/png",
+			image: {
+				contextLink: "https://blog.hubspot.com/website/center-div-css",
+				height: 441,
+				width: 1332,
+				byteSize: 16963,
+				thumbnailLink:
+					"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwHvuFub2jaozRRRIwIxwfL3btt6adpnJjnVnUlka6EsoKl312E-prWQ&s",
+				thumbnailHeight: 50,
+				thumbnailWidth: 150,
 			},
 		},
 	],

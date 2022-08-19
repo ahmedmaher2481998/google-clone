@@ -6,6 +6,7 @@ import SearchResults from "../components/SearchResults";
 import Head from "next/head";
 
 const Search = ({ data }) => {
+	console.log(data);
 	const router = useRouter();
 
 	return (

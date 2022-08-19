@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { SearchIcon, MicrophoneIcon, XIcon } from "@heroicons/react/solid";
+
 import { useRouter } from "next/router";
 import Image from "next/image";
 import User from "./User";
