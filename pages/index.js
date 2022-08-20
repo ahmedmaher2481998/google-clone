@@ -18,7 +18,7 @@ export default function Home() {
 			<Head>
 				<title>Google</title>
 				<meta name='description' content='Google Search Engine ' />
-				<link rel='icon' href='/favicon.ico' />
+				<link rel='icon' href='/logo.png' />
 			</Head>
 			<Header />
 			{/* Body */}
